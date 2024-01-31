@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/go_back_n -n .:../src $*
+# for shared lib, use: opp_run -l ../src/go_back_n -n .:../src $*
